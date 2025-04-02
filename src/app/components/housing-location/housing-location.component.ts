@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Housinglocation } from '../housinglocation';
+import { HousingLocation } from '../housinglocation';
 
 @Component({
   selector: 'app-housing-location',
@@ -9,5 +9,5 @@ import { Housinglocation } from '../housinglocation';
 })
 export class HousingLocationComponent {
 
-  @Input() housingLocation!:Housinglocation;
+  @Input() housingLocation!:HousingLocation;
 }
